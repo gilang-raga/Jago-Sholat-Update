@@ -1,7 +1,7 @@
 # Jago Sholat
 
 <p align="center">
-  <img src="screenshots/poster-jago-sholat.png" width="900">
+  <img src="jago_sholat_updated-main/screenshoots/poster" width="900">
 </p>
 
 ## Tentang Aplikasi
@@ -49,6 +49,9 @@ Catat, Lihat, dan Evaluasi semua ibadah harianmu dalam satu genggaman.
 - Java
 - TypeScript
 - SQLite
+
+## Download Here
+https://drive.google.com/file/d/14cS0x5FdZRiWYad78OJCwyiq4LZAx2ki/view
 
 ## Instalasi
 
