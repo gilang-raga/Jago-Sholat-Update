@@ -1,41 +1,54 @@
-# JAOG Sholat Mobile
+# Jago Sholat
 
-Pengembangan aplikasi mobile berbasis Android untuk membantu pengguna dalam menjalankan ibadah sehari-hari.
+<p align="center">
+  <img src="screenshots/poster-jago-sholat.png" width="900">
+</p>
+
+## Tentang Aplikasi
+
+Jago Sholat merupakan aplikasi mobile Android yang berfungsi untuk memudahkan pengguna Muslim dalam mencatat setiap amalan sholat harian.
 
 ## Fitur
 
-- Login & Register User (Update)
-- Pencatatan Sholat Harian
-- Jadwal Sholat Harian
-- Statistik Sholat
-- Panduan Tatacara Wudhu & Sholat
-- Tasbih Digital (Updtae)
-- Arah Kiblat (Update)
-- Notifikasi Adzan (Update)
-- Halaman Profil (Update)
+- 🔐 Login & Register User (Update)
+- 📝 Pencatatan Sholat Harian
+- 🕒 Jadwal Sholat Harian
+- 📊 Statistik Sholat
+- 📖 Panduan Tata Cara Wudhu & Sholat
+- 📿 Tasbih Digital (Update)
+- 🧭 Arah Kiblat (Update)
+- 🔔 Notifikasi Adzan (Update)
+- 👤 Halaman Profil (Update)
+
+Catat, Lihat, dan Evaluasi semua ibadah harianmu dalam satu genggaman.
 
 ## Screenshot
 
 ### Login & Register
-![Home](screenshots/login & Register.png)
+![Login & Register](jago_sholat_updated-main/screenshoots/login&register.png)
 
-### Home
-![Home](screenshots/home.png)
+### Catatan Shoalt
+![Catatan Sholat](jago_sholat_updated-main/screenshoots/catatan.png)
 
 ### Jadwal Sholat
-![Jadwal Sholat](screenshots/jadwal-sholat.png)
+![Jadwal Sholat](jago_sholat_updated-main/screenshoots/jadwal.png)
 
-### Al-Qur'an
-![Quran](screenshots/quran.png)
+### Kompas
+![Kompas Kiblat](jago_sholat_updated-main/screenshoots/kompas.png)
 
-### Profile
-![Profile](screenshots/profile.png)
+### Tasbih Digital
+![Tasbih Digital](jago_sholat_updated-main/screenshoots/tasbih.png)
+
+### Profil
+![Profil](jago_sholat_updated-main/screenshoots/profil.png)
 
 ## Teknologi
 
 - React Native / Expo
+- Kotlin
+- Java
 - TypeScript
-- Firebase
+- SQLite
 
 ## Instalasi
 
