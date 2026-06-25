@@ -50,7 +50,7 @@ Catat, Lihat, dan Evaluasi semua ibadah harianmu dalam satu genggaman.
 - TypeScript
 - SQLite
 
-## Download Here
+## Download APK Here
 https://drive.google.com/file/d/14cS0x5FdZRiWYad78OJCwyiq4LZAx2ki/view
 
 ## Instalasi
