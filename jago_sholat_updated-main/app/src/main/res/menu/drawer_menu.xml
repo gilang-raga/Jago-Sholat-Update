@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_akun"
+            android:title="Akun"
+            android:icon="@drawable/ic_person_outline"
+            android:iconTint="@color/Background_Primary"
+            android:titleCondensed="@string/app_name"/>
+
+        <item
+            android:id="@+id/nav_tentang"
+            android:title="Tentang Kami"
+            android:icon="@drawable/ic_info_outline"
+            android:iconTint="@color/Background_Primary" />
+
+    </group>
+
+    <item
+        android:title="Version 1.0.0"
+        android:enabled="false" />
+
+</menu>

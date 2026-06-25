@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:padding="16dp"
+    tools:context="id.duglegir.jagosholat.ui.compass.KompasFragment">
+
+    <LinearLayout
+        android:id="@+id/header_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="27dp"
+            android:src="@drawable/ic_country_kompas"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="Icon Lokasi"/>
+
+        <TextView
+            android:id="@+id/idTvCountryName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lokasi Tidak Ditemukan"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:text="Indonesia"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/container_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/header_info"
+        android:layout_above="@id/txt_no_internet"
+        android:gravity="center">
+
+        <FrameLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp">
+
+            <ImageView
+                android:id="@+id/iv_kompas_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/kompas_back"
+                android:scaleType="fitCenter" />
+
+            <ImageView
+                android:id="@+id/iv_kompas_front"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/kompas_front"
+                android:scaleType="fitCenter" />
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_no_internet"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="No Internet Connection"
+        android:visibility="invisible"
+        tools:visibility="visible"/>
+</RelativeLayout>
