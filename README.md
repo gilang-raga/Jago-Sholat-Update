@@ -22,6 +22,9 @@ Jago Sholat merupakan aplikasi mobile Android yang berfungsi untuk memudahkan pe
 
 Catat, Lihat, dan Evaluasi semua ibadah harianmu dalam satu genggaman.
 
+## Author Project
+https://github.com/amirisback/jago-sholat
+
 ## Screenshot
 
 ### Login & Register
